@@ -30,5 +30,7 @@ $_['action_error']         = 'oc_cli/not_found';
 
 // Action Events
 $_['action_event'] = array(
-    'view/*/before' => 'event/theme'
+    array(
+        'view/*/before' => 'event/theme'
+    )
 );
